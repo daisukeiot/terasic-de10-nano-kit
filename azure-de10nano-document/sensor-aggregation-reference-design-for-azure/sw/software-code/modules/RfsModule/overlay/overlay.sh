@@ -1,6 +1,6 @@
 overlay_dir="/sys/kernel/config/device-tree/overlays/socfpga"
-overlay_dtbo="../modules/RfsModule/overlay/rfs-overlay.dtbo"
-overlay_rbf="../modules/RfsModule/overlay/Module5_Sample_HW.rbf"
+overlay_dtbo="./rfs-overlay.dtbo"
+overlay_rbf="./Module5_Sample_HW.rbf"
 
 if [ -d $overlay_dir ];then
   echo "Deleting $overlay_dir"

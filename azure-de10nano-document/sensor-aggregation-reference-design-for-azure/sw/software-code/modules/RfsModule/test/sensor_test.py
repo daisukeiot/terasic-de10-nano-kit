@@ -1,6 +1,8 @@
 # Copyright (C) 2021 Intel Corporation 
 # Licensed under the MIT license. See LICENSE file in the project root for
 # full license information.
+import sys
+sys.path.append('../')
 
 import unittest
 from package.sensor import *
