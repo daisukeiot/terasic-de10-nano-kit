@@ -9,7 +9,11 @@
           "settings": {
             "minDockerVersion": "v1.25",
             "loggingOptions": "",
-            "registryCredentials": {}
+            "registryCredentials": {
+              "address": "$CONTAINER_REGISTRY_ADDRESS",
+              "username": "$CONTAINER_REGISTRY_USERNAME",
+              "password": "$CONTAINER_REGISTRY_PASSWORD"
+            }
           }
         },
         "systemModules": {
